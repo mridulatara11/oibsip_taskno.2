@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fb4f01f65d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <div class"logo"><span>M</span>ridula.</div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#my-skills">My Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software developer</p>
+            <h1>Hi, I'm <span>Mridula Tara</span><br>from India</h1>
+        </div>
+    </div>
+ </div>
+<!-- --------------------------------about---------------------------------------- -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="mridula.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I'm MridulaTara, Pursuing B.Tech in Computer Science and Business Systems at Mahatma Gandhi Institute of Technology. I have a Hands-on and curiosity-driven approach to software development and innovation. I am a ethusiastic and creative learner. Let's code the future together!✨ </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Certifications')">Certifications</p>
+                    <p class="tab-links" onclick="opentab('Internship')">Internship</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                
+                </div>
+                <div class="tab-contents active-tab" id="Certifications">
+                    <ul>                   
+                        <li><span>OPENEDG PYTHON INSTITUTE AUTHORIZED ACADEMY PROGRAM</span><br>PCAP: Programming Essentials in Python</li>
+                        <li><span>CISCO NETWORKING ACADEMY</span><br>CLA: Programming Essentials in C</li>
+                        <li><span>ORACLE ACADEMY</span><br>Database Programming with SQL</li>
+                        <li><span>FREE CODE CAMP</span><br>Responsive Web Design</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Internship">
+                    <ul>                  
+                        <li><span>Oasis Infobyte</span><br>Web Development and Designing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>                   
+                        <li><span>2020</span><br>Secondary Education at Atomic Energy<br> Central School-2,Hyderabad</li>
+                        <li><span>2020-2022</span><br>Intermediate at Trividyaa<br> Junior College,Hyderabad </li>
+                        <li><span>2022-2026</span><br>BTech at Mahatma Gandhi<br> Institute of Technology,Hyderabad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div> 
+ <!-- ----------------------------skills----------------------------------- -->
+ <div id="my-skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1> 
+        <div class="my-skills-list">
+            <div>
+                <i class="fa-solid fa-person"></i>
+                <h2>Soft Skills</h2>
+                <p>Communication<br>Adaptability<br>Creativity<br>Leadership Qualities</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-dice"></i>
+                <h2>Programming Languages</h2>
+                <p>C<br>Python<br>Java<br></p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>HTML<br>CSS<br>JavaScript<br>UI/UX Design-Flutter<br>Tableau</p>
+                
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- ---------------------------portfolio-------------------------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="fake.png">
+                <div class="layer">
+                    <h3>Fake Link Detector</h3>
+                    <p>Web Development</p>
+                    <a href="https://github.com/mridulatara11/Fake_link_detector.git" target="_blank"><i class="fa-solid fa-person"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="landingpage.png">
+                <div class="layer">
+                    <h3>Lindor Landing Page</h3>
+                    <p>Web Development</p>
+                    <a href="https://github.com/mridulatara11/oibsip_taskno.1.git" target="_blank"><i class="fa-solid fa-dice"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="tempconv.png">
+                <div class="layer">
+                    <h3>Temperature Converter</h3>
+                    <p>Web Development</p>
+                    <a href="https://github.com/mridulatara11/oibsip_taskno.3.git" target="_blank"><i class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/mridulatara11" target="_blank" class="btn">See more</a>
+    </div>
+ </div>
+ <!-- ---------------------------contact-------------------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mridula2017tara@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9100492356</p>
+                <div class="social-icons">
+                    <a href="https://github.com/mridulatara11" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mridulatara11/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Mridula Resume (2).pdf" download class="btn btn2">Download CV</a>
+            </div>
+       
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+       </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Mridula. <i class="fa-solid fa-heart"></i></p>
+    </div>
+ </div>
+
+
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");  
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");  
+        }
+        event.currentTarget.classList.add("active-link"); 
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+ </script>
+
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqCm7kNXC0owNa83R7GRkG99S8Ajt_jSNQcE3Z_jSPMmdorQDpp6n3tziv8g4r5vLoHQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const mesg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                meg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
